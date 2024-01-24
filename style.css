@@ -1,8 +1,21 @@
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 100vw;
-    min-height: 100vh;
-    background-color: hsl(212, 45%, 89%);
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  max-width: 18rem;
+  background: white;
+  padding: 0.7rem;
+  border-radius: 0.6rem;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.6rem;
 }
